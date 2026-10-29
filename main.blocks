@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</variable></variables><block type="pxt-on-start" id="||~r=~:lR!vM,%bF,cI8" x="108" y="-311"><statement name="HANDLER"><block type="device_show_leds" id=";/B1hX/b3YcWy7Vq~BgF"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement></block><block type="device_button_event" id="8($2M]EA.L0[?JkO5E$8" x="55" y="151"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="controls_if" id="eFu{k={1ymX5M(xm=go."><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="Sh8UzaYaw*Ga.Qu%K(zl"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="fjH4SjiWOKQ%^;WE!L@["><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="?:S+])e|$jx^OA/V:XUe"><field name="NUM">0</field></shadow><block type="variables_get" id="e[60m-*ImRH/BsUpv/[7"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field></block></value><value name="B"><shadow type="math_number" id="*MARp,5uAvWoT0%w%+VX"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="?kY*McMe+_4p-tNZ0a!N"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field><next><block type="variables_set" id="+?:|%fAk:iUqqH{:O[X?"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field><value name="VALUE"><shadow type="math_number" id=";}3A~ak{XO)_/SVR0YJq"><field name="NUM">1</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="QTPrO_sbInCpbERmM#,$"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="9Vbc*bShHN@,PH@jYQvN"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="@2d5Oot6ESl9uvrj2@}P"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="B[B=+9Oz^^HP4rV+XosG"><field name="NUM">0</field></shadow><block type="variables_get" id="Xa19C!wR[(]iYC7gwb|*"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field></block></value><value name="B"><shadow type="math_number" id="Tfwf;QP$fR$)k+`4.%F]"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="IsG%eRgqSMM(:*EPGGVk"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="variables_set" id="@K:!~/o3]7kF5|;?I]jg"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field><value name="VALUE"><shadow type="math_number" id="nVTOUuy8S%b0LJ^hQ-Uu"><field name="NUM">2</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="60z(Y;zNoMU(N~1V,mB|"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="n0Mr^b6t+;Vh0Ot+#]V["><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="]fzK8f0on$ll;B1cl7F]"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="Bp!%hJVg?zkRpk^iUxaK"><field name="NUM">0</field></shadow><block type="variables_get" id="})agH9)$4zqqXCn_EzAW"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field></block></value><value name="B"><shadow type="math_number" id="[%@CDe#X-n)r$*b3-)T["><field name="NUM">2</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="}fMrv~9]6ld%2cc!T9Bo"><field name="LEDS">`
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # # 
+        # # # # #
+        `</field><next><block type="variables_set" id="^66x%k.P4yM}A+fzq)yQ"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field><value name="VALUE"><shadow type="math_number" id="lW|-#nSu(H^UK_z2lu{,"><field name="NUM">0</field></shadow></value></block></next></block></statement><statement name="ELSE"><block type="controls_if" id="i^-cj0o%mvxj#jvEJZVe"><value name="IF0"><shadow type="logic_boolean" id="_PYG5NE.I]nhi6rSTCYm"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="|nlfW^;uU3+?cSua(`Q}"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="z]m$z(JXp.E}?;VhB4MM"><field name="NUM">0</field></shadow><block type="variables_get" id="m~4M0hg,|MV=38W0ew*o"><field name="VAR" id=";OqU}t6)hW{!8Qn[Nb-7">livello volume</field></block></value><value name="B"><shadow type="math_number" id=",b92WDq[IU2?~gGF?kSD"><field name="NUM">0</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="e,]u?WE@E|D4-D%-81YD"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        # # # # #
+        `</field></block></statement></block></statement></block></statement></block></statement></block></statement></block></xml>
